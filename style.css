@@ -1,0 +1,155 @@
+body{
+    background-color: #EDEDED;
+    margin: 0;
+    height: 1440px;
+}
+.container-one{
+    
+    background-color: #F4E0B9;
+    width: 100%;
+    height: 40%;
+}    
+    
+#name{
+    
+    padding-top: 20px;
+    text-align: center;
+    
+    font-family: 'Caveat', cursive;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+   
+    color: #525252;
+    font-size: 3rem;
+}
+p{
+    margin: 0;
+    
+}
+#user-photo{
+    border-radius: 50%;
+    height: 200px;
+    border: 5px solid #525252;
+    
+}
+
+.profile-photo{
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 15px;
+}
+    
+
+.identity{
+    
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    height: 25%;
+    align-items: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.container-two{
+    background-color:#F4E0B9;
+    height: 50%;
+}
+#about{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.grid-container{
+    padding-top: 15px;
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 2fr;
+    gap: 5px;
+    
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.info{
+    font-family: 'Handjet', cursive;
+}    
+
+.container-three{
+    background-color: #A8A196;
+    height: 10%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+a{
+    color: #7D7463;
+    font-size: medium;
+    font-weight: 600;
+}
+
+
+
+#insta-logo{
+    border-radius: 22%;
+}
+
+.img-section{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.link-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+}    
+
+
+#discord{
+    padding-left: 11px;
+}
+
+#linkedIn{
+    padding-right: 5px;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    
+    
+    background-color: #F4E0B9;
+}
+
+.copyright{
+    padding-top: 20px;
+    text-align: center;
+    color: #525252;
+}
+
+@media (max-width:1000px) {
+    .info{
+        font-size: 1.5em;
+    }
+}
